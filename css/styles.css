@@ -32,6 +32,10 @@ body {
   color: white;
 }
 
+.hangouts {
+  color: #FF7F27;
+}
+
 .btn {
   background-color: black;
   border: solid #FF7F27 3px;

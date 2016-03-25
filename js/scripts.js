@@ -38,7 +38,6 @@ $(document).ready(function() {
     event.preventDefault();
 
     location.reload();
-
   });
 
 });
