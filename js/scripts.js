@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 
     $("#destination-quiz").slideUp();
-    $("#dog-loading").slideDown().delay('slow').slideUp();
+    $("#dog-loading").show().delay(2000).slideUp();
     $("#restartQuiz").show();
     $("#destination1").hide();
     $("#destination2").hide();
@@ -21,15 +21,15 @@ $(document).ready(function() {
     var totalScore = quest1score + quest2score + quest3score + quest4score + quest5score;
 
     if (totalScore <= 7) {
-      $("#destination1").show();
+      $("#destination1").delay(2000).slideDown();
     } else if (totalScore <= 10) {
-      $("#destination2").show();
+      $("#destination2").delay(2000).slideDown();
     } else if (totalScore <= 13) {
-      $("#destination3").show();
+      $("#destination3").delay(2000).slideDown();
     } else if (totalScore <= 16) {
-      $("#destination4").show();
+      $("#destination4").delay(2000).slideDown();
     } else {
-      $("#destination5").show();
+      $("#destination5").delay(2000).slideDown();
     }
 
   });
