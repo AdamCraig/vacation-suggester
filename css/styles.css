@@ -1,0 +1,28 @@
+h5 {
+  text-align: center;
+}
+
+h6 {
+  display: block;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.yellowText {
+  color: yellow;
+}
+
+#destination-quiz, #restartQuiz {
+  text-align: center;
+}
+
+#destination1, #destination2, #destination3, #destination4, #destination5, #restartQuiz {
+  display: none;
+}
+
+#destination1 {
+  font-family: 'Papyrus';
+}
