@@ -41,9 +41,14 @@ body {
   margin-top: 20px;
 }
 
-#destination1, #destination2, #destination3, #destination4, #destination5, #restartQuiz {
+#destination1, #destination2, #destination3, #destination4, #destination5, #restartQuiz, #dog-loading {
   text-align: center;
   display: none;
+}
+
+#dog-loading img {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #destination1 {

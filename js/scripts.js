@@ -2,7 +2,9 @@ $(document).ready(function() {
   $("form#destination-quiz").submit(function(event) {
     event.preventDefault();
 
-    $("#destination-quiz").hide();
+
+    $("#destination-quiz").slideUp();
+    $("#dog-loading").slideDown().delay('slow').slideUp();
     $("#restartQuiz").show();
     $("#destination1").hide();
     $("#destination2").hide();
