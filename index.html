@@ -5,6 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
     <title>Vacation Suggester - UNDERTALE Edition</title>
   </head>
   <body>
@@ -14,9 +15,11 @@
 
       <h5><img src="img/undertale.jpg" alt="Leading-brand UNDERTALE-type Software"></h5>
 
-      <h2>Looking to vacation in the, um, interesting place that is the Underground?</h2>
-      <h3>Whether you're one of the many humans who, for whatever reason, fell into the Underground, or you're one of our longtime monster residents, we've got just the right place for your getaway! Just take our quiz and find out your perfect destination!</h2>
-      <h6>note: safety not guarenteed at any destination</h6>
+      <div id="prompt">
+        <h2>Looking to vacation in the Underground? It sure is an... interesting place!</h2>
+        <h3>Whether you're one of the many humans who, for whatever reason, fell into the Underground, or you're one of our longtime monster residents, we've got just the right place for your getaway! Just take our quiz and find out your perfect destination!</h2>
+        <h6>note: safety not guarenteed at any destination</h6>
+      </div>
 
       <!-- END QUIZ HEADING -->
 
@@ -168,14 +171,14 @@
     </div>
 
       <!-- START QUIZ RESULTS -->
-
-        <button type="submit" class="btn">(HEART ICON HERE) ACT</button>
+        <button type="submit" class="btn btn-lg btn-act"><img src="img/act.jpg" alt="Act!"></button>
         </form>
 
       <div id="destination1">
         <h2>Looks like your dream destination is...</h2>
-        <h1>SNOWDIN TOWN</h1>
         <img src="img/snowdin-town.jpg" alt="Snowdin Town! Get snowed in :)">
+        <h1>SNOWDIN TOWN</h1>
+        <img src="img/papyrus-sans.jpg" alt="Papyrus and Sans!">
       </div>
 
       <div id="destination2">
@@ -203,7 +206,7 @@
       </div>
 
       <form id="restartQuiz">
-        <button type="submit" class="btn">(HEART ICON HERE) MERCY</button>
+        <button type="submit" class="btn btn-lg btn-heart"><img src="img/heart.jpg" alt="Restart Heart!">  Restart The Quiz</button>
       </form>
 
       <!-- END QUIZ RESULTS -->

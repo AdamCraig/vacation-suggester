@@ -2,6 +2,11 @@ h5 {
   text-align: center;
 }
 
+h5 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 h6 {
   display: block;
 }
@@ -11,18 +16,42 @@ body {
   color: white;
 }
 
+.btn {
+  background-color: black;
+  border: solid #FF7F27 3px;
+  border-radius: 0px;
+}
+
+.btn-heart img {
+  height: 25px;
+  width: 25px;
+}
+
 .yellowText {
   color: yellow;
 }
 
-#destination-quiz, #restartQuiz {
+#prompt {
   text-align: center;
+  border: solid #FF7F27 3px;
+  border-radius: 0px;
+}
+
+#destination-quiz, #restartQuiz {
+  margin-top: 20px;
 }
 
 #destination1, #destination2, #destination3, #destination4, #destination5, #restartQuiz {
+  text-align: center;
   display: none;
 }
 
 #destination1 {
   font-family: 'Papyrus';
+}
+
+#destination1 img {
+  text-align: center;
+  max-height: 1000px;
+  max-width: 1000px;
 }
