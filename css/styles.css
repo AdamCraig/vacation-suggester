@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Undertale';
+  src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot');
+  src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot?#iefix') format('embedded-opentype'),
+  url('http://vignette3.wikia.nocookie.net/heliosanctus/images/a/aa/Determination.woff2') format('woff2'),
+  url('http://vignette3.wikia.nocookie.net/heliosanctus/images/3/37/Determination.woff') format('woff'),
+  url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/cd/Determination.ttf') format('truetype'),
+  url('http://vignette3.wikia.nocookie.net/heliosanctus/images/7/7f/Determination.svg#Undertale') format('svg');}
+
 h5 {
   text-align: center;
 }
@@ -7,11 +16,18 @@ h5 img {
   max-height: 100%;
 }
 
+h3 {
+  color: #FF7F27;
+}
+
 h6 {
   display: block;
 }
 
 body {
+  font-family: 'Undertale', cursive;
+  font-weight: normal;
+  font-size: 1.8em;
   background-color: black;
   color: white;
 }
@@ -60,6 +76,30 @@ body {
 }
 
 #destination1 img {
+  text-align: center;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+
+#destination2 img {
+  text-align: center;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+
+#destination3 img {
+  text-align: center;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+
+#destination4 img {
+  text-align: center;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+
+#destination5 img {
   text-align: center;
   max-height: 1000px;
   max-width: 1000px;

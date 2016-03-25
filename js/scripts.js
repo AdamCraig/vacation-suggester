@@ -2,10 +2,10 @@ $(document).ready(function() {
   $("form#destination-quiz").submit(function(event) {
     event.preventDefault();
 
-
     $("#destination-quiz").slideUp();
-    $("#dog-loading").show().delay(2000).slideUp();
-    $("#restartQuiz").show();
+    $("#prompt").slideUp();
+    $("#dog-loading").slideDown().delay(2000).slideUp();
+    $("#restartQuiz").delay(2000).slideDown();
     $("#destination1").hide();
     $("#destination2").hide();
     $("#destination3").hide();
@@ -37,13 +37,8 @@ $(document).ready(function() {
   $("form#restartQuiz").submit(function(event) {
     event.preventDefault();
 
-    $("#destination-quiz").show();
-    $("#restartQuiz").hide();
-    $("#destination1").hide();
-    $("#destination2").hide();
-    $("#destination3").hide();
-    $("#destination4").hide();
-    $("#destination5").hide();
+    location.reload();
+
   });
 
 });
