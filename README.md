@@ -12,8 +12,8 @@ _An Undertale-themed webpage that uses HTML, CSS, Bootstrap, JavaScript, and jQu
 
 ## Setup/Installation Requirements
 
-* _Viewing the page is easily accomplished by heading on over to its GitHub pages link at adamcraig.github.io/vacation-suggester _
-* _OR cloning the repository with "git clone https://github.com/AdamCraig/vacation-suggester" and then opening the index.html file in any internet browser. _
+* Viewing the page is easily accomplished by heading on over to its GitHub pages link at adamcraig.github.io/vacation-suggester
+* OR cloning the repository with "git clone https://github.com/AdamCraig/vacation-suggester" and then opening the index.html file in any internet browser.
 
 ## Known Bugs
 
