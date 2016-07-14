@@ -8,7 +8,7 @@
 
 ## Description
 
-_A webpage that uses HTML, CSS, Bootstrap, JavaScript, and jQuery to assign users a vacation destination based on answers to a quiz._
+_An Undertale-themed webpage that uses HTML, CSS, Bootstrap, JavaScript, and jQuery to assign users a vacation destination based on answers to a quiz._
 
 ## Setup/Installation Requirements
 
